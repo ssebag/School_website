@@ -1,0 +1,8 @@
+//  $students=DB::table('users')
+       // ->leftJoin('students','users.id','=','students.user_id')
+       // ->where('role','user')
+       // ->where('class_id',$class_id)
+       // ->pluck('users.id');
+
+
+       /*********/

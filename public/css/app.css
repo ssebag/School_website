@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0 1px;
+    box-sizing: border-box;
+}
+
+.card-headerQuiz span{
+   margin-top: 2px;
+    margin-right: 10px;
+}
+.button-btn{
+    display: flex;
+    flex-direction: row;
+ }
+ .button-btn a ,.button-btn form input , .button-btn span ,.button-btn button{
+    margin-left: 5px;
+   }
+
+
+.navbar-title{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:  rgba(0, 0, 0, 0.9);
+    font-weight: 800;
+    font-style: italic;
+     }
+.navbar-sub{
+    font-size: 1rem;
+}
+.web_title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px rgb(131, 159, 236), 0 -10px 20px #46508d, 0 -18px 40px rgb(125, 132, 151), -18px 2px 3px rgba(206,89,55,0.01);
+}
+.web_title:hover{
+    box-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #5900ff, 0 -18px 40px rgb(0, 68, 255), -18px 2px 3px rgba(206,89,55,0.01);
+    text-decoration: none;
+    color:  rgba(0, 0, 0, 0.568);
+}
+.trrr th{
+    text-align: center;
+}
+@media screen and (max-width:450px){
+    .dropdown-item{
+        font-size: 0.5rem;
+
+    }
+    .navbar-title{
+        font-size: 0.5rem;
+         }
+
+         .web_title:hover{
+            box-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #5900ff, 0 -18px 40px rgb(0, 68, 255), -18px 2px 3px rgba(206,89,55,0.01);
+            text-decoration: none;
+            color:  rgba(0, 0, 0, 0.568);
+        }
+        .navbar-sub{
+            font-size: 0.5rem;
+            text-decoration: none;
+            font-weight: 400;
+
+}
+   .home{
+    margin-top: 4px;
+   }
+   .tablle{
+    display: flex;
+   }
+   .trrr th{
+    font-size: 0.55rem;
+    width: max-content;
+   }
+   .button-btn{
+      display: flex;
+      flex-direction: row;
+   }
+   .button-btn a ,.button-btn form input , .button-btn span ,.button-btn button{
+    font-size: 0.3rem;
+    height: max-content;
+    width: max-content;
+    padding: 4px;
+    margin-left: 1px;
+   }
+   .button-btn{
+    color: white;
+   }
+}
+@media screen and (max-width:390px){
+   .tablle{
+    display: flex;
+   }
+   .trrr th{
+    font-size: 0.6rem;
+   }
+}
+.cardAppointmentheader h4{
+    font-weight:bold
+}
+.cardAppointmentheader h4 span{
+    color: purple;
+}
+
+.input-style{
+   font-size: 1rem;
+   text-align: center;
+   color:purple;font-weight:bold
+}
+
+.containerQuiz{
+    margin: 1% 3%;
+}
+
+ .noti{
+    height: 60px;
+    line-height: 15px;
+ }
+@media screen and (max-width:450px){
+    .nav-item{
+      font-size: 0.5rem;
+    }
+    .card-headerQuiz{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .card-headerQuiz span{
+        margin-top: -8px;
+        margin-right: -2px;
+    }
+
+    .cardAppointmentheader h4 ,.input-style , .tittle_form, .answer{
+        font-size:0.7rem;
+     }
+     .containerQuiz{
+        display: flex;
+        flex-direction: column;
+     }
+     .card{
+        margin-top: 3%;
+     }
+
+     .order-quiz{
+        margin-bottom:1% ;
+     }
+     .formm{
+        display: flex;
+        flex-direction: column;
+     }
+     .formm label, .form-option .form-control{
+        font-size:small;
+     }
+     .alert-style{
+        font-size: 0.7rem;
+     }
+     .noti{
+        height: 60px;
+        line-height: 15px;
+     }
+
+
+}
+.cardAppointment{
+    padding:1%;
+    border: 1px solid rgb(8, 8, 75);
+
+}
+.tittle_form{
+    color:rgb(8, 8, 75);
+    font-weight: bold;
+    font-style: oblique;
+}
+.cardAppointmentheader{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 0.5fr;
+}
+.carousell{
+     height:85vh;
+     width: 100%;
+     position: relative;
+}
+.carousel-item img{
+    height:85vh;
+}
+@media (max-width: 800px){
+    .carousell{
+        height:50vh;
+   }
+    .carousel-item img{
+        height:50vh;
+    }
+}
+.caption{
+    position: absolute;
+    right: 40%;
+    bottom: 2rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.caption h5{
+  font-size: 3rem;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-weight: 1000;
+  color: aqua;
+}
+.caption p{
+    font-size: 3rem;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 700;
+}
+.forMore{
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.forMore p::before{
+    position: absolute;
+    content:" ";
+    width: 250px;
+    height: 5px;
+    background-color:aqua;
+}
+@media (max-width:800px){
+    .forMore{
+        margin-bottom: 3rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .forMore p::before{
+        width: 165px;
+        height: 5px;
+        background-color:aqua;
+    }
+}
+.forMore p{
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px rgb(131, 159, 236), 0 -10px 20px #46508d, 0 -18px 40px rgb(125, 132, 151), -18px 2px 3px rgba(206,89,55,0.01);
+    font-style: italic;
+    padding-left: 2px;
+}
+.welcomeCard{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.card{
+    position: relative;
+    margin-bottom: 5rem;
+}
+.card img{
+    width: 400px;
+}
+video{
+    width: 100%;
+}
+.video1{
+    position:relative;
+    margin-bottom:1.5rem;
+}
+.video1::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+@media (min-width: 768px){
+    .welcomeCard{
+        flex-basis:75%;
+    }
+}
+.card img{
+    height: 200px;
+}
+.footer-img{
+        width: 6rem;
+        position: absolute;
+        top: -79px;
+        left: 279px;
+        outline: 5px solid #ccc;
+        border-radius: 50%;
+        height: 6rem;
+}
+.cardHeader{
+    z-index: 1;
+    position: absolute;
+    top:-40px;
+    left:50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 70px;
+    background-image: url('../img/logo/1684090454303.png');
+    background-position-x: center;
+    background-position-y: center;
+    border:1px solid rgba(128, 128, 128, 0.164);
+    background-size: 5.5rem;
+    border-radius: 50%;
+}
+.card-bodyy{
+    padding: 5px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+.content{
+    margin: 2rem 3rem;
+    padding: 10px;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: 0 -2px 10px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #5900ff, 0 -2px 10px rgb(0, 68, 255), 0 -2px 10px rgba(206,89,55,0.01);
+
+}
+.footer1{
+    padding-top:1rem;
+}
+@media screen and (max-width:450px){
+     .carousell{
+         height:22vh;
+    }
+    .carousel-item img{
+        height:21vh;
+
+    }
+    .caption{
+        right: 149px;
+        bottom: 33px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .caption h5{
+        font-size: 1rem;
+        font-weight: 800;
+        margin-top: -1rem;
+    }
+    .caption p{
+        font-size: 0.7rem;
+        font-weight: 900;
+    }
+    .forMore{
+        font-size: 0.7rem;
+        font-weight: 700;
+        margin-top: -10px;
+        margin-bottom: 2rem;
+    }
+    .forMore p::before{
+        width: 120px;
+        height: 2px;
+    }
+    .card{
+        margin-bottom: 1rem;
+    }
+
+    .card img{
+        height: 80px;
+    }
+    .cardHeader{
+        top:-15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30px;
+        height: 30px;
+        background-size: 2.7rem;
+    }
+    .card-text{
+        font-size: 0.4rem;
+    }
+    .content{
+        margin: 2rem 1rem;
+        padding: 5px;
+        font-size: 0.7rem;
+        font-weight: 200;
+    }
+    .font7{
+         font-size: 0.5rem;
+    }
+    .contact{
+        display: none;
+    }
+    .footer1{
+        padding-top:0.1rem;
+    }
+
+}
+
+
+
+
+
+
